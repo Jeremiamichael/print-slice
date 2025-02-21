@@ -6,7 +6,7 @@ import (
 
 func PrintArray(arr []int) {
 	fmt.Print("[")
-	for i := 0; i < len(agorr); i++ {
+	for i := 0; i < len(arr); i++ {
 		fmt.Printf("%d", arr[i])
 		if i != len(arr)-1 {
 			fmt.Print(" ")
